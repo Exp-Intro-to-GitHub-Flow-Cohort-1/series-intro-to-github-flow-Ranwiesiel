@@ -2,7 +2,7 @@
   "tests": [
     {
       "name": "Step 1 Create a Branch",
-      "setup": "sleep 20",
+      "setup": "sleep 0",
       "run": "[ $(cat .github/steps/-step.txt) -ge 1 ] || [ $(cat .github/steps/-step.txt) = X ]",
       "input": "",
       "output": "",
